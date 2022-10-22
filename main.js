@@ -64,7 +64,7 @@ const group = new THREE.Group();
 const fontloader = new FontLoader();
 fontloader.load("/static/fonts/helvetiker_regular.typeface.json", (font) => {
   textGeomentry = new TextGeometry(
-    "    Balakrishna \n Web Developer \n Game Developer",
+    "    balakrishna \n Web Developer \n Game Developer",
     {
       font: font,
       size: 0.5,
